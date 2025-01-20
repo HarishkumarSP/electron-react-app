@@ -1,0 +1,19 @@
+{
+	"name": "electron-app",
+	"version": "1.0.0",
+	"description": "A electron app",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "harishkumarsp",
+	"license": "ISC",
+	"dependencies": {
+		"electron": "^34.0.0"
+	},
+	"devDependencies": {
+		"electron-builder": "^25.1.8",
+		"electron-is-dev": "^3.0.1"
+	}
+}
